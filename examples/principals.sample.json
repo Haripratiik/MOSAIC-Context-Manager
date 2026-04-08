@@ -1,0 +1,28 @@
+﻿{
+  "principals": [
+    {
+      "principal_id": "http-public",
+      "display_name": "HTTP Public Demo",
+      "roles": ["public"],
+      "transport": "http",
+      "auth_source": "config",
+      "tokens": ["token-public"]
+    },
+    {
+      "principal_id": "http-analyst",
+      "display_name": "HTTP Analyst Demo",
+      "roles": ["analyst"],
+      "transport": "http",
+      "auth_source": "config",
+      "tokens": ["token-analyst"]
+    },
+    {
+      "principal_id": "http-compliance",
+      "display_name": "HTTP Compliance Demo",
+      "roles": ["compliance"],
+      "transport": "http",
+      "auth_source": "config",
+      "tokens": ["token-compliance"]
+    }
+  ]
+}

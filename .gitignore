@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+build/
+dist/
+*.egg-info/
+.mosaic/
+.mosaic_standalone/
+.mosaic_test/
+.claude/
+tmp*/
+MOSAIC_plan.md
+MOSAIC_comprehensive_plan.md
+ONE_PAGE_LETTER.md
+ONE_PAGE_LETTER_TEMPLATE.md
+One Pager.pdf
+SUBMISSION_CHECKLIST.md
+corpus/documents/
+corpus/catalog.json
+corpus/eval_suite.json

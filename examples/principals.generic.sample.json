@@ -1,0 +1,41 @@
+{
+  "principals": [
+    {
+      "principal_id": "http-public",
+      "display_name": "HTTP Public Reader",
+      "roles": [
+        "public"
+      ],
+      "transport": "http",
+      "auth_source": "config",
+      "tokens": [
+        "token-public"
+      ]
+    },
+    {
+      "principal_id": "http-member",
+      "display_name": "HTTP Team Member",
+      "roles": [
+        "public",
+        "member"
+      ],
+      "transport": "http",
+      "auth_source": "config",
+      "tokens": [
+        "token-member"
+      ]
+    },
+    {
+      "principal_id": "http-admin",
+      "display_name": "HTTP Admin",
+      "roles": [
+        "*"
+      ],
+      "transport": "http",
+      "auth_source": "config",
+      "tokens": [
+        "token-admin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source_root": "..",
+  "roles": ["public"],
+  "doc_type": "project_doc",
+  "metadata": {
+    "collection": "project_docs",
+    "source": "repository"
+  },
+  "documents": [
+    {
+      "path": "README.md",
+      "document_id": "mosaic-readme",
+      "title": "MOSAIC README"
+    },
+    {
+      "path": "HOW_TO_RUN.md",
+      "document_id": "mosaic-runbook",
+      "title": "MOSAIC Runbook"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "document_id": "mosaic-architecture",
+      "title": "MOSAIC Architecture"
+    },
+    {
+      "path": "docs/QUICKSTART.md",
+      "document_id": "mosaic-quickstart",
+      "title": "MOSAIC Quickstart"
+    }
+  ]
+}
