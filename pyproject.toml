@@ -9,7 +9,7 @@ description = "MOSAIC retrieval optimizer with synthetic corpus generation, eval
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
-  { name = "OpenAI Codex" }
+  { name = "Haripratiik" }
 ]
 dependencies = [
   "anthropic>=0.91.0",
